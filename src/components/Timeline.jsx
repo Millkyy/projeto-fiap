@@ -6,9 +6,9 @@ const ProgressBar = styled.div`
   top: 0;
   left: 0;
   height: 4px;
-  background: #FF005C;
+  margin-top: 7vh;
+  background: #ED145B;
   width: ${(props) => props.scroll}%;
-  z-index: 1001;
 `;
 
 function Timeline() {
